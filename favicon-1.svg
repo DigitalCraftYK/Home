@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2e"/>
+      <stop offset="100%" stop-color="#1a3a5c"/>
+    </linearGradient>
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1565c0"/>
+      <stop offset="100%" stop-color="#29b6f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="6" fill="#ffffff"/>
+
+  <!-- D letter (dark, left side) -->
+  <path d="M3 4 L3 26 L9 26 Q19 26 19 15 Q19 4 9 4 Z" fill="url(#fg)"/>
+  <path d="M7 8 L7 22 L9.5 22 Q15 22 15 15 Q15 8 9.5 8 Z" fill="#ffffff"/>
+
+  <!-- C letter (blue gradient, right/overlapping) -->
+  <!-- Top arm -->
+  <path d="M16 6 Q16 3 19 3 L23 3 Q26 3 27.5 6 L25 8 Q24.2 6.5 23 6.5 L20 6.5 Q18.5 6.5 18.5 9 L18.5 11 L15.5 11 Q15.5 7.5 16 6 Z" fill="url(#cg)"/>
+  <!-- Bottom arm -->
+  <path d="M15.5 19 L18.5 19 L18.5 21 Q18.5 23.5 20 23.5 L23 23.5 Q24.2 23.5 25 22 L27.5 24 Q26 27 23 27 L19 27 Q16 27 16 24 Q15.5 22.5 15.5 19 Z" fill="url(#cg)"/>
+  <!-- Middle bar -->
+  <rect x="15.5" y="11" width="3" height="8" fill="url(#cg)"/>
+
+  <!-- Pixel dots (top right) -->
+  <rect x="27" y="2"  width="2.5" height="2.5" rx="0.4" fill="#29b6f6" opacity="0.9"/>
+  <rect x="29.5" y="2" width="2" height="2" rx="0.3" fill="#4fc3f7" opacity="0.6"/>
+  <rect x="28"   y="5" width="2" height="2" rx="0.3" fill="#29b6f6" opacity="0.7"/>
+</svg>

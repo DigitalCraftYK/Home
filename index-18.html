@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>DigitalCraft — Premium Website Design & Development | India</title>
+  <meta name="description" content="DigitalCraft offers modern, responsive, SEO-friendly websites for businesses, professionals, and organizations across India. Founded by Yogesh G. Kalyankar." />
+  <meta name="keywords" content="website design India, web development Maharashtra, business website, portfolio website, SEO friendly website, DigitalCraft, Yogesh Kalyankar" />
+  <meta name="author" content="Yogesh G. Kalyankar" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://digitalcraft.in/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DigitalCraft — Premium Website Design & Development" />
+  <meta property="og:description" content="Modern, responsive, SEO-friendly websites for businesses, professionals, and organizations across India." />
+  <meta property="og:url" content="https://digitalcraft.in/" />
+  <meta property="og:image" content="assets/images/og-image.jpg" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DigitalCraft — Premium Website Design & Development" />
+  <meta name="twitter:description" content="Modern, responsive, SEO-friendly websites crafted for businesses across India." />
+
+  <!-- Local SEO -->
+  <meta name="geo.region" content="IN-MH" />
+  <meta name="geo.placename" content="Maharashtra, India" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=Noto+Sans+Devanagari:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "DigitalCraft",
+    "description": "Premium website design and development for businesses, professionals, and organizations.",
+    "founder": { "@type": "Person", "name": "Yogesh G. Kalyankar" },
+    "address": { "@type": "PostalAddress", "addressRegion": "Maharashtra", "addressCountry": "IN" },
+    "url": "https://digitalcraft.in",
+    "serviceType": ["Web Design", "Web Development", "SEO Optimization"]
+  }
+  </script>
+</head>
+<body>
+
+<!-- ─── PAGE LOADER ─── -->
+<div class="page-loader" role="presentation" aria-hidden="true">
+  <div class="loader-logo">DC</div>
+</div>
+
+<!-- ─── NAVBAR ─── -->
+<header>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="DigitalCraft Home">
+        <img src="assets/logo.svg" alt="DigitalCraft Logo" onerror="this.style.display='none'" />
+        <span class="nav-logo-text">Digital<span>Craft</span></span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+        <li><a href="templates.html" data-i18n="nav_templates">Templates</a></li>
+        <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+
+      <!-- Right Controls -->
+      <div class="nav-right">
+        <!-- Language Switcher -->
+        <div class="lang-switcher" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="en" aria-label="English">EN</button>
+          <button class="lang-btn" data-lang="mr" aria-label="Marathi">मर</button>
+          <button class="lang-btn" data-lang="hi" aria-label="Hindi">हि</button>
+        </div>
+        <a href="contact.html" class="btn btn-primary nav-cta" data-i18n="nav_cta">Get a Quote</a>
+        <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav-mobile-menu" role="menu">
+    <a href="index.html" role="menuitem" data-i18n="nav_home">Home</a>
+    <a href="about.html" role="menuitem" data-i18n="nav_about">About</a>
+    <a href="services.html" role="menuitem" data-i18n="nav_services">Services</a>
+    <a href="templates.html" role="menuitem" data-i18n="nav_templates">Templates</a>
+    <a href="portfolio.html" role="menuitem" data-i18n="nav_portfolio">Portfolio</a>
+    <a href="contact.html" role="menuitem" data-i18n="nav_contact">Contact</a>
+    <div class="mobile-lang-row">
+      <button class="mobile-lang-btn active" data-lang="en">EN</button>
+      <button class="mobile-lang-btn" data-lang="mr">मराठी</button>
+      <button class="mobile-lang-btn" data-lang="hi">हिंदी</button>
+    </div>
+    <div class="mobile-cta">
+      <a href="contact.html" class="btn btn-primary" data-i18n="nav_cta">Get a Quote</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 1: HERO
+  ══════════════════════════════════════════ -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-dots" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span data-i18n="hero_badge">Premium Web Design Studio</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="line-1" data-i18n="hero_title_1">Build Your Dream</span><br />
+          <span class="line-2 shimmer-text" data-i18n="hero_title_2">Website Today</span>
+        </h1>
+
+        <p class="hero-desc" data-i18n="hero_desc">
+          Modern, responsive, SEO-friendly websites crafted for businesses, professionals, and organizations across India.
+        </p>
+
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary" data-i18n="hero_btn_primary">
+            Start Your Project
+            <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="portfolio.html" class="btn btn-outline" data-i18n="hero_btn_secondary">View Portfolio</a>
+        </div>
+
+        <div class="hero-stats" aria-label="Key statistics">
+          <div class="hero-stat">
+            <div class="hero-stat-value"><span class="count-up" data-target="30">0</span><span>+</span></div>
+            <div class="hero-stat-label" data-i18n="hero_stat_1">Projects</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value"><span class="count-up" data-target="25">0</span><span>+</span></div>
+            <div class="hero-stat-label" data-i18n="hero_stat_2">Clients</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value"><span class="count-up" data-target="2">0</span><span>+</span></div>
+            <div class="hero-stat-label" data-i18n="hero_stat_3">Years</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value"><span>24</span><span style="font-size:1.4rem">/7</span></div>
+            <div class="hero-stat-label" data-i18n="hero_stat_4">Support</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Floating visual mockups (decorative) -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-card-mockup">
+        <div class="mockup-bar" style="--w:80%"></div>
+        <div class="mockup-bar" style="--w:55%"></div>
+        <div class="mockup-bar" style="--w:70%"></div>
+        <div style="height:40px;background:var(--bg-secondary);border-radius:6px;margin-top:12px;opacity:0.5"></div>
+      </div>
+      <div class="hero-card-mockup">
+        <div style="display:flex;gap:8px;margin-bottom:12px">
+          <div style="width:32px;height:32px;background:var(--gold-dark);border-radius:6px;opacity:0.4"></div>
+          <div style="flex:1">
+            <div class="mockup-bar" style="--w:60%;margin-bottom:4px"></div>
+            <div class="mockup-bar" style="--w:40%"></div>
+          </div>
+        </div>
+        <div class="mockup-bar" style="--w:90%"></div>
+        <div class="mockup-bar" style="--w:65%"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── MARQUEE STRIP ─── -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <!-- 2 sets for seamless loop -->
+      <div class="marquee-item"><span>✦</span> Business Websites</div>
+      <div class="marquee-item"><span>✦</span> SEO Optimization</div>
+      <div class="marquee-item"><span>✦</span> Mobile Responsive</div>
+      <div class="marquee-item"><span>✦</span> Portfolio Websites</div>
+      <div class="marquee-item"><span>✦</span> GitHub Pages Hosting</div>
+      <div class="marquee-item"><span>✦</span> Landing Pages</div>
+      <div class="marquee-item"><span>✦</span> Fast Delivery</div>
+      <div class="marquee-item"><span>✦</span> 12+ Templates</div>
+      <div class="marquee-item"><span>✦</span> Custom Design</div>
+      <div class="marquee-item"><span>✦</span> Business Websites</div>
+      <div class="marquee-item"><span>✦</span> SEO Optimization</div>
+      <div class="marquee-item"><span>✦</span> Mobile Responsive</div>
+      <div class="marquee-item"><span>✦</span> Portfolio Websites</div>
+      <div class="marquee-item"><span>✦</span> GitHub Pages Hosting</div>
+      <div class="marquee-item"><span>✦</span> Landing Pages</div>
+      <div class="marquee-item"><span>✦</span> Fast Delivery</div>
+      <div class="marquee-item"><span>✦</span> 12+ Templates</div>
+      <div class="marquee-item"><span>✦</span> Custom Design</div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 2: ABOUT PREVIEW
+  ══════════════════════════════════════════ -->
+  <section class="about-preview section" aria-label="About founder">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Image column -->
+        <div class="about-image-wrap reveal">
+          <div class="about-image-frame">
+            <span class="about-avatar-placeholder" aria-hidden="true">YK</span>
+            <!-- Replace src with actual photo: -->
+            <!-- <img src="assets/images/yogesh.jpg" alt="Yogesh G. Kalyankar - Founder of DigitalCraft" /> -->
+          </div>
+          <div class="about-tag" aria-label="2 plus years experience">
+            <strong>2+</strong>
+            Years of Experience
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="about-text reveal reveal-delay-2">
+          <span class="section-label" data-i18n="about_label">About the Founder</span>
+          <h2 class="section-title" data-i18n="about_title">
+            Meet the Mind Behind <em>DigitalCraft</em>
+          </h2>
+          <div class="divider"></div>
+          <p style="color:var(--text-secondary);line-height:1.8;margin-bottom:16px" data-i18n="about_desc">
+            I'm Yogesh G. Kalyankar — a passionate web designer and developer from Maharashtra, India. I founded DigitalCraft to help local businesses and professionals establish a powerful online presence.
+          </p>
+          <p style="color:var(--gold-light);font-size:14px;font-style:italic;margin-bottom:28px" data-i18n="about_mission">
+            Mission: Make quality web design accessible to every business, big or small.
+          </p>
+
+          <div class="about-skills" aria-label="Skills">
+            <span class="skill-tag">HTML5 / CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">SEO</span>
+            <span class="skill-tag">GitHub Pages</span>
+            <span class="skill-tag">UI / UX</span>
+          </div>
+
+          <div class="about-socials" aria-label="Social media links">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://whatsapp.com/channel/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp Channel">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            </a>
+          </div>
+
+          <a href="about.html" class="btn btn-ghost" style="margin-top:12px" data-i18n="about_cta">
+            Learn More <span class="arrow">→</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 3: SERVICES
+  ══════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" data-i18n="services_label">What We Offer</span>
+        <h2 class="section-title" id="services-heading" data-i18n="services_title">Services Designed for <em>Growth</em></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle" data-i18n="services_subtitle">From a simple portfolio to a full business website — we build it right, the first time.</p>
+      </div>
+
+      <div class="services-grid" role="list">
+
+        <article class="service-card glow-hover reveal reveal-delay-1" role="listitem">
+          <div class="service-icon" aria-hidden="true">🏢</div>
+          <h3 class="service-name">Business Websites</h3>
+          <p class="service-desc">Professional websites that represent your brand, attract customers, and drive business growth.</p>
+        </article>
+
+        <article class="service-card glow-hover reveal reveal-delay-2" role="listitem">
+          <div class="service-icon" aria-hidden="true">👤</div>
+          <h3 class="service-name">Portfolio Websites</h3>
+          <p class="service-desc">Showcase your skills, projects, and achievements with a clean, impressive personal portfolio.</p>
+        </article>
+
+        <article class="service-card glow-hover reveal reveal-delay-3" role="listitem">
+          <div class="service-icon" aria-hidden="true">🚀</div>
+          <h3 class="service-name">Landing Pages</h3>
+          <p class="service-desc">High-converting, focused landing pages designed to turn visitors into leads and customers.</p>
+        </article>
+
+        <article class="service-card glow-hover reveal reveal-delay-4" role="listitem">
+          <div class="service-icon" aria-hidden="true">🔄</div>
+          <h3 class="service-name">Website Redesign</h3>
+          <p class="service-desc">Revamp your outdated website with a fresh, modern design that reflects your current brand.</p>
+        </article>
+
+        <article class="service-card glow-hover reveal reveal-delay-5" role="listitem">
+          <div class="service-icon" aria-hidden="true">🔧</div>
+          <h3 class="service-name">Website Maintenance</h3>
+          <p class="service-desc">Regular updates, content changes, and performance optimization to keep your site running smoothly.</p>
+        </article>
+
+        <article class="service-card glow-hover reveal reveal-delay-6" role="listitem">
+          <div class="service-icon" aria-hidden="true">🔍</div>
+          <h3 class="service-name">SEO Optimization</h3>
+          <p class="service-desc">On-page SEO, meta optimization, and semantic HTML to help your site rank higher on Google.</p>
+        </article>
+
+        <article class="service-card glow-hover reveal reveal-delay-1" role="listitem">
+          <div class="service-icon" aria-hidden="true">📦</div>
+          <h3 class="service-name">GitHub Pages Deployment</h3>
+          <p class="service-desc">Free, reliable hosting for your static website using GitHub Pages — fast and secure.</p>
+        </article>
+
+        <article class="service-card glow-hover reveal reveal-delay-2" role="listitem">
+          <div class="service-icon" aria-hidden="true">✏️</div>
+          <h3 class="service-name">Website Customization</h3>
+          <p class="service-desc">Tailor any existing template or website to perfectly match your brand identity and requirements.</p>
+        </article>
+
+      </div>
+
+      <div style="text-align:center;margin-top:48px" class="reveal">
+        <a href="services.html" class="btn btn-outline">Explore All Services <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 4: TEMPLATE CATEGORIES
+  ══════════════════════════════════════════ -->
+  <section class="templates-section section" aria-labelledby="templates-heading">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" data-i18n="templates_label">Ready-Made Designs</span>
+        <h2 class="section-title" id="templates-heading" data-i18n="templates_title">Website Templates for <em>Every Business</em></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle" data-i18n="templates_subtitle">Choose from 12+ professionally designed templates and customize them for your brand.</p>
+      </div>
+
+      <div class="templates-grid" role="list">
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-1" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">🖥️</div>
+          <div class="template-cat-name">CSC Center</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-2" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">☕</div>
+          <div class="template-cat-name">Cyber Cafe</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-3" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">🛒</div>
+          <div class="template-cat-name">Grocery Shop</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-4" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">🍽️</div>
+          <div class="template-cat-name">Restaurant</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-5" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">💊</div>
+          <div class="template-cat-name">Medical Store</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-6" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">📚</div>
+          <div class="template-cat-name">Coaching Class</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-1" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">💇</div>
+          <div class="template-cat-name">Salon</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-2" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">⚡</div>
+          <div class="template-cat-name">Electrician</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-3" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">👨‍💻</div>
+          <div class="template-cat-name">Portfolio</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-4" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">🥐</div>
+          <div class="template-cat-name">Bakery</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-5" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">🏨</div>
+          <div class="template-cat-name">Hotel</div>
+        </a>
+        <a href="templates.html" class="template-cat-card reveal reveal-delay-6" role="listitem">
+          <div class="template-cat-icon" aria-hidden="true">✈️</div>
+          <div class="template-cat-name">Travel Agency</div>
+        </a>
+      </div>
+
+      <div style="text-align:center;margin-top:48px" class="reveal">
+        <a href="templates.html" class="btn btn-primary" data-i18n="templates_cta">Browse All Templates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 5: PORTFOLIO PREVIEW
+  ══════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="portfolio-heading">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" data-i18n="portfolio_label">Our Work</span>
+        <h2 class="section-title" id="portfolio-heading" data-i18n="portfolio_title">Projects We're <em>Proud Of</em></h2>
+        <div class="divider"></div>
+        <p class="section-subtitle" data-i18n="portfolio_subtitle">A glimpse into websites we've designed and developed for real clients.</p>
+      </div>
+
+      <div class="portfolio-grid" role="list">
+
+        <article class="portfolio-card glow-hover reveal reveal-delay-1" role="listitem">
+          <div class="portfolio-thumb">
+            <span class="portfolio-thumb-label">Personal Portfolio</span>
+            <div class="portfolio-overlay">
+              <a href="portfolio.html" class="btn btn-primary" style="font-size:13px;padding:10px 22px">View Project</a>
+            </div>
+          </div>
+          <div class="portfolio-body">
+            <h3 class="portfolio-title">Yogesh G. Kalyankar — Portfolio</h3>
+            <p style="font-size:13px;color:var(--text-secondary)">A personal portfolio showcasing web design skills, projects, and professional background.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">HTML5</span>
+              <span class="portfolio-tag">CSS3</span>
+              <span class="portfolio-tag">JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="portfolio-card glow-hover reveal reveal-delay-2" role="listitem">
+          <div class="portfolio-thumb">
+            <span class="portfolio-thumb-label">Jumbo Online Center</span>
+            <div class="portfolio-overlay">
+              <a href="portfolio.html" class="btn btn-primary" style="font-size:13px;padding:10px 22px">View Project</a>
+            </div>
+          </div>
+          <div class="portfolio-body">
+            <h3 class="portfolio-title">Jumbo Online Center</h3>
+            <p style="font-size:13px;color:var(--text-secondary)">A complete business website for a local CSC center offering various government and digital services.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">HTML5</span>
+              <span class="portfolio-tag">CSS3</span>
+              <span class="portfolio-tag">Responsive</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="portfolio-card glow-hover reveal reveal-delay-3" role="listitem">
+          <div class="portfolio-thumb">
+            <span class="portfolio-thumb-label">Pramod Online</span>
+            <div class="portfolio-overlay">
+              <a href="portfolio.html" class="btn btn-primary" style="font-size:13px;padding:10px 22px">View Project</a>
+            </div>
+          </div>
+          <div class="portfolio-body">
+            <h3 class="portfolio-title">Pramod Online</h3>
+            <p style="font-size:13px;color:var(--text-secondary)">A professional online services website built to attract and inform customers efficiently.</p>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">HTML5</span>
+              <span class="portfolio-tag">CSS3</span>
+              <span class="portfolio-tag">SEO</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div style="text-align:center;margin-top:48px" class="reveal">
+        <a href="portfolio.html" class="btn btn-outline" data-i18n="portfolio_cta">View Full Portfolio <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 6: WHY US
+  ══════════════════════════════════════════ -->
+  <section class="whyus-section section" aria-labelledby="whyus-heading">
+    <div class="container">
+      <div class="whyus-grid">
+
+        <!-- Left: Features list -->
+        <div>
+          <span class="section-label reveal" data-i18n="whyus_label">Why DigitalCraft</span>
+          <h2 class="section-title reveal" id="whyus-heading" data-i18n="whyus_title">The Smart Choice for <em>Your Website</em></h2>
+          <div class="divider reveal"></div>
+          <p class="section-subtitle reveal" data-i18n="whyus_subtitle">We combine design, technology, and strategy to deliver websites that truly work.</p>
+
+          <div class="whyus-features" style="margin-top:40px">
+            <div class="whyus-item reveal">
+              <div class="whyus-icon" aria-hidden="true">⚡</div>
+              <div>
+                <div class="whyus-item-title">Fast Delivery</div>
+                <div class="whyus-item-desc">Most websites ready in 3–7 business days. We respect your time and deadlines.</div>
+              </div>
+            </div>
+            <div class="whyus-item reveal reveal-delay-1">
+              <div class="whyus-icon" aria-hidden="true">📱</div>
+              <div>
+                <div class="whyus-item-title">Mobile First Design</div>
+                <div class="whyus-item-desc">Every website is fully responsive and optimized for all screen sizes and devices.</div>
+              </div>
+            </div>
+            <div class="whyus-item reveal reveal-delay-2">
+              <div class="whyus-icon" aria-hidden="true">🔍</div>
+              <div>
+                <div class="whyus-item-title">SEO Built-In</div>
+                <div class="whyus-item-desc">On-page SEO, semantic markup, and fast loading speeds included in every project.</div>
+              </div>
+            </div>
+            <div class="whyus-item reveal reveal-delay-3">
+              <div class="whyus-icon" aria-hidden="true">🤝</div>
+              <div>
+                <div class="whyus-item-title">Dedicated Support</div>
+                <div class="whyus-item-desc">Post-delivery support for 5–7 days for minor changes, plus responsive communication.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Process steps panel -->
+        <div class="whyus-visual-panel reveal reveal-delay-2">
+          <h3 style="font-family:var(--font-display);font-size:1.4rem;margin-bottom:8px">Our Process</h3>
+          <p style="font-size:13px;color:var(--text-muted);margin-bottom:8px">From idea to live website</p>
+          <div class="process-steps">
+            <div class="process-step">
+              <div class="process-num">01</div>
+              <div>
+                <div class="process-step-title">Consultation</div>
+                <div class="process-step-desc">We understand your business, goals, and design preferences.</div>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="process-num">02</div>
+              <div>
+                <div class="process-step-title">Design & Build</div>
+                <div class="process-step-desc">We create and develop your website with quality and care.</div>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="process-num">03</div>
+              <div>
+                <div class="process-step-title">Review & Revise</div>
+                <div class="process-step-desc">You review the design, we apply up to 3 rounds of revisions.</div>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="process-num">04</div>
+              <div>
+                <div class="process-step-title">Launch</div>
+                <div class="process-step-desc">Your website goes live with free GitHub Pages deployment.</div>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="process-num">05</div>
+              <div>
+                <div class="process-step-title">Support</div>
+                <div class="process-step-desc">5–7 days post-launch minor support included at no extra cost.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 7: REVIEWS
+  ══════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="reviews-heading">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" data-i18n="reviews_label">Client Feedback</span>
+        <h2 class="section-title" id="reviews-heading" data-i18n="reviews_title">What Our <em>Clients Say</em></h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="reviews-grid" role="list">
+
+        <article class="review-card reveal reveal-delay-1" role="listitem">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <p class="review-text">DigitalCraft built our CSC center website in just 5 days. The design is clean, professional, and our customers love it. Highly recommend!</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">RK</div>
+            <div>
+              <div class="review-name">Rajesh Kulkarni</div>
+              <div class="review-location">CSC Center Owner, Pune</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card reveal reveal-delay-2" role="listitem">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <p class="review-text">Amazing work! Yogesh understood exactly what I needed for my coaching class website. Mobile-friendly, fast, and SEO optimized. Worth every rupee.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">PP</div>
+            <div>
+              <div class="review-name">Priya Patil</div>
+              <div class="review-location">Coaching Class, Nashik</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card reveal reveal-delay-3" role="listitem">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <p class="review-text">Got my restaurant website done with a beautiful menu section and contact form. Customers are calling more now. Great service and very professional support.</p>
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">AM</div>
+            <div>
+              <div class="review-name">Aakash More</div>
+              <div class="review-location">Restaurant Owner, Aurangabad</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 8: FAQ
+  ══════════════════════════════════════════ -->
+  <section class="faq-section section" aria-labelledby="faq-heading" id="faq">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label" data-i18n="faq_label">FAQ</span>
+        <h2 class="section-title" id="faq-heading" data-i18n="faq_title">Frequently Asked <em>Questions</em></h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="faq-list reveal" role="list">
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q1">How long does it take to build a website?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a1">Most websites are completed within 3–7 business days. Complex projects may take 10–14 days. We'll give you an accurate timeline after your initial consultation.</div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q2">How many revisions are included?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a2">We include up to 3 revision rounds in every project. Minor changes are addressed within 5–7 days post-delivery at no extra cost.</div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q3">Do you provide hosting and domain?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a3">We offer free GitHub Pages deployment for static websites. For custom hosting and domain setup, we can guide you or handle it for an additional fee.</div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q4">Will my website be mobile-friendly?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a4">Absolutely. Every website we build is fully responsive and tested across all major devices and screen sizes.</div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q5">Do you offer SEO services?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a5">Yes! We include on-page SEO (titles, meta tags, semantic HTML, structured headings) with every website. Advanced SEO packages are available separately.</div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q6">What technologies do you use?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a6">We primarily work with HTML5, CSS3, JavaScript, and deploy via GitHub Pages. We tailor the tech stack to each project's needs.</div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q7">Can I request a custom template?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a7">Yes. All our templates can be customized to match your brand colors, content, and requirements. Contact us for a custom quote.</div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <span data-i18n="faq_q8">How do I pay for my project?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner" data-i18n="faq_a8">We accept 50% advance payment before starting and the remaining 50% upon project completion. Payment details are shared during onboarding.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 9: CONTACT CTA
+  ══════════════════════════════════════════ -->
+  <section class="contact-cta section" aria-labelledby="cta-heading">
+    <div class="container">
+      <div class="cta-box reveal">
+        <span class="section-label" style="justify-content:center">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          Let's Build Together
+        </span>
+        <h2 class="cta-title" id="cta-heading" data-i18n="cta_title">Ready to Start Your <em>Website?</em></h2>
+        <p class="cta-subtitle" data-i18n="cta_subtitle">Let's build something great together. Get a free consultation and custom quote today.</p>
+
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary" data-i18n="cta_btn_primary">Contact Us Now</a>
+          <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-i18n="cta_btn_wa">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            WhatsApp Us
+          </a>
+        </div>
+
+        <div class="cta-contact-row">
+          <div class="cta-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Email: <a href="mailto:digitalcraft@email.com">digitalcraft@email.com</a></span>
+          </div>
+          <div class="cta-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.04 10.14 19.79 19.79 0 011 1.53 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+            <span>WhatsApp: <a href="https://wa.me/91XXXXXXXXXX">+91 XXXX XXX XXX</a></span>
+          </div>
+          <div class="cta-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Mon–Sat, 9AM–7PM IST</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ─── FOOTER ─── -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <span class="nav-logo-text">Digital<span>Craft</span></span>
+        <p class="footer-desc" data-i18n="footer_desc">Premium website design & development for businesses, professionals, and organizations across India.</p>
+        <div class="about-socials">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="footer-col-title" data-i18n="footer_quick">Quick Links</h3>
+        <nav class="footer-links" aria-label="Quick links">
+          <a href="index.html" data-i18n="nav_home">Home</a>
+          <a href="about.html" data-i18n="nav_about">About</a>
+          <a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a>
+          <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        </nav>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h3 class="footer-col-title" data-i18n="footer_services">Services</h3>
+        <nav class="footer-links" aria-label="Services">
+          <a href="services.html">Business Websites</a>
+          <a href="services.html">Portfolio Websites</a>
+          <a href="services.html">Landing Pages</a>
+          <a href="services.html">SEO Optimization</a>
+          <a href="templates.html" data-i18n="nav_templates">Templates</a>
+        </nav>
+      </div>
+
+      <!-- Legal -->
+      <div>
+        <h3 class="footer-col-title" data-i18n="footer_legal">Legal</h3>
+        <nav class="footer-links" aria-label="Legal links">
+          <a href="legal.html#terms">Terms & Conditions</a>
+          <a href="legal.html#privacy">Privacy Policy</a>
+          <a href="legal.html#refund">Refund Policy</a>
+          <a href="legal.html#seller">Seller Agreement</a>
+        </nav>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="footer-bottom">
+      <span data-i18n="footer_copyright">© 2024 DigitalCraft. All rights reserved.</span>
+      <span data-i18n="footer_made">Crafted with ❤ by <a href="about.html">Yogesh G. Kalyankar</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<!-- ─── SCRIPTS ─── -->
+<script src="js/language.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Keyboard accessibility for FAQ -->
+<script>
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        q.click();
+        const expanded = q.parentElement.classList.contains('open');
+        q.setAttribute('aria-expanded', expanded);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
